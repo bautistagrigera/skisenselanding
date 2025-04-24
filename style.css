@@ -413,3 +413,30 @@ header.main-header p {
 .pre-order .btn:hover {
   background: #66B2FF;
 }
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB; /* Azul cielo */
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  text-decoration: none;
+  color: #ffffff; /* Blanco */
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #2e3b4e; /* Azul oscuro */
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+.navbar .nav-link.active {
+  border-bottom: 2px solid #ffffff; /* Indica la página actual */
+}
