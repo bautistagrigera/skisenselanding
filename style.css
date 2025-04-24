@@ -207,20 +207,22 @@ nav .btn.active {
 
 .top-bar {
   display: flex;
-  justify-content: flex-end;  /* botones a la derecha */
+  justify-content: flex-end;
   align-items: center;
-  background-color: #fff;      /* fondo blanco */
-  padding: 0.75rem 1rem;       /* espacio arriba/abajo e izquierda/derecha */
+  background-color: #fff;    /* fondo blanco */
+  padding: 0.75rem 1rem;
+  color: #0066cc;            /* texto azul del mensaje */
 }
 
 .top-bar nav .btn {
-  background-color: #333;
-  color: #fff;
+  background-color: #0066cc; /* fondo azul de los botones */
+  color: #fff;               /* texto blanco */
   padding: 0.25rem 0.75rem;
-  margin-left: 0.5rem;         /* separación entre botones */
+  margin-left: 0.5rem;       /* separación entre botones */
   border-radius: 4px;
   text-decoration: none;
   font-size: 0.9rem;
 }
+
 
 
