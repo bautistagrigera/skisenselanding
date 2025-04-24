@@ -213,6 +213,11 @@ nav .btn.active {
 
 /* Cambiar el texto superior */
 .top-bar__text {
+  /* Centrar el texto superior */
+.top-bar__text {
+  text-align: center; /* Centrar el texto horizontalmente */
+  display: block; /* Asegura que el texto ocupe una línea completa */
+  margin: 0 auto; /* Centrado automático dentro del contenedor */
   color: #87CEEB; /* Azul cielo */
 }
 
