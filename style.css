@@ -212,8 +212,7 @@ nav .btn.active {
 }
 
 /* Cambiar el texto superior */
-.top-bar__text {
-  /* Centrar el texto superior */
+
 .top-bar__text {
   text-align: center; /* Centrar el texto horizontalmente */
   display: block; /* Asegura que el texto ocupe una línea completa */
