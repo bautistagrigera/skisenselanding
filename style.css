@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #2e3b4e;
+}
+
+.top-bar {
+  background: #3d3d3d;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar .nav-left {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #2e3b4e;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Fondo del encabezado */
+header.main-header {
+  background: url('img/mountain-bg3.avif') no-repeat center center/cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 6rem 1rem;
+  position: relative;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Estilo de las imágenes */
+.images {
+  position: relative;
+  margin: 8rem auto; /* Centra el contenedor verticalmente */
+  display: flex; /* Asegura que el contenido esté centrado */
+  justify-content: center; /* Centra la imagen horizontalmente */
+  align-items: center; /* Centra la imagen verticalmente */
+  max-width: none; /* Elimina restricciones de ancho */
+  width: 100%; /* Permite que el contenedor ocupe todo el ancho disponible */
+}
+
+.goggles-image {
+  width: 700px; /* Tamaño de la imagen */
+  max-width: none; /* Elimina restricciones de tamaño máximo */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 12px; /* Bordes redondeados */
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease; /* Transición suave */
+}
+
+.goggles-image:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Features Section */
+.features {
+  background: #ffffff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2e3b4e;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 30%;
+  text-align: center;
+}
+
+.feature img {
+  max-width: 60px;
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2e3b4e;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #4a6572;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #f0f4f8;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2e3b4e;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 45%;
+  text-align: center;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #4a6572;
+  margin-bottom: 1rem;
+}
+
+.testimonial span {
+  display: block;
+  font-weight: bold;
+  color: #2e3b4e;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2e3b4e;
+  color: #ffffff;
+  font-size: 0.875rem;
+}
+
+/* Animaciones generales */
+.animate-on-scroll {
+  opacity: 0; /* Elementos invisibles inicialmente */
+  transform: translateY(20px); /* Desplazamiento inicial */
+  transition: opacity 0.8s ease, transform 0.8s ease; /* Transición suave */
+}
+
+.animate-on-scroll.visible {
+  opacity: 1; /* Elementos visibles */
+  transform: translateY(0); /* Posición final */
+}
