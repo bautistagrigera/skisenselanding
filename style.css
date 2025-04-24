@@ -470,6 +470,11 @@ header.main-header p {
   text-align: center;
 }
 
+.contact-header h1,
+.contact-header p {
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
 /* Contenedor del contenido de contacto */
 .contact-container {
   background-color: #87CEEB; /* Fondo celeste */
