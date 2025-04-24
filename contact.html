@@ -1,36 +1,40 @@
-<!-- contact.html -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="css/styles.css" />
-  <title>Contact · Skisen’s</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | SkiSense</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html" class="btn">Home</a>
-      <a href="pre-order.html" class="btn">Pre-Order</a>
-      <a href="community.html" class="btn">Community</a>
-      <a href="contact.html" class="btn active">Contact</a>
-    </nav>
-  </header>
-
-  <main>
+  <div class="top-bar">
+    <span class="top-bar__text">Free shipping on orders over $99</span>
+  </div>
+  <header class="main-header">
     <h1>Contact Us</h1>
-    <form action="#" method="POST">
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="message">Mensaje:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit" class="btn">Enviar</button>
+    <p>We'd love to hear from you.</p>
+  </header>
+  <section class="contact-form">
+    <h2>Get in Touch</h2>
+    <form action="submit_form.html" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
     </form>
-  </main>
+  </section>
+  <footer>
+    &copy; 2025 SkiSense. All rights reserved.
+  </footer>
 </body>
 </html>
