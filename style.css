@@ -238,3 +238,98 @@ nav .btn.active {
   background-color: #66B2FF; /* Azul un poco más oscuro al pasar el mouse */
 }
 
+/* Formulario de contacto */
+.contact-form {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2e3b4e;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form .btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #87CEEB;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form .btn:hover {
+  background: #66B2FF;
+}
+
+/* Sección de pre-order */
+.pre-order {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pre-order h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2e3b4e;
+}
+
+/* Lista de comunidad */
+.community {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.community h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2e3b4e;
+}
+
+.community .discussion-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.community .discussion-list li {
+  margin-bottom: 1rem;
+}
+
+.community .discussion-list a {
+  text-decoration: none;
+  color: #87CEEB;
+}
+
+.community .discussion-list a:hover {
+  text-decoration: underline;
+}
