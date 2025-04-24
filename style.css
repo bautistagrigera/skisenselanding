@@ -333,3 +333,83 @@ nav .btn.active {
 .community .discussion-list a:hover {
   text-decoration: underline;
 }
+
+/* Estilo para el encabezado de pre-order */
+header.main-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/mountain-bg3.avif') no-repeat center center/cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 6rem 1rem;
+  position: relative;
+}
+
+header.main-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+header.main-header p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Sección de pre-order */
+.pre-order {
+  padding: 3rem 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.pre-order h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2e3b4e;
+}
+
+.pre-order p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #4a6572;
+}
+
+.pre-order .form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.pre-order label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #2e3b4e;
+}
+
+.pre-order input,
+.pre-order textarea,
+.pre-order select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.pre-order .btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #87CEEB;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pre-order .btn:hover {
+  background: #66B2FF;
+}
