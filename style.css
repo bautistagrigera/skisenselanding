@@ -8,9 +8,12 @@ body {
 }
 
 .top-bar {
-  background: #3d3d3d;
-  color: #ffffff;
-  text-align: center;
+  background-color: #87CEEB; /* Azul cielo */
+  color: #ffffff; /* Blanco para el texto */
+  text-align: center; /* Centra el contenido horizontalmente */
+  display: flex; /* Utilizamos flexbox para centrar */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
   padding: 5px;
   font-size: 0.9em;
 }
